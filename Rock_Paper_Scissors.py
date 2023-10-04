@@ -16,7 +16,7 @@ while i <= 3:
             print("player1 wins")
             p1Wins +=1
         elif player2 == "R":
-            print("Raw")
+            print("Draw")
 
     if player1 == "P":
         if player2 == "S":
@@ -26,7 +26,7 @@ while i <= 3:
             print("player1 wins")
             p1Wins += 1
         elif player2 == "P":
-            print("Raw")
+            print("Draw")
 
     if player1 == "S":
         if player2 == "R":
@@ -36,7 +36,7 @@ while i <= 3:
             print("player1 wins")
             p1Wins += 1
         elif player2 == "S":
-            print("Raw")
+            print("Draw")
 
     i += 1
 print("palyer1 wins = ", p1Wins)
